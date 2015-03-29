@@ -1,6 +1,6 @@
 <?php
 
-namespace Tools;
+namespace FW\Tools;
 
 class Arr
 {
