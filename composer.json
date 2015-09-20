@@ -1,0 +1,12 @@
+{
+  "name": "smeeckaert/fw-tools",
+  "description": "Controller",
+  "license": "Unlicense",
+  "authors": [
+    {
+      "name": "Martin Smeeckaert",
+      "email": "martin@smeeckaert.com"
+    }
+  ],
+  "require": {}
+}
