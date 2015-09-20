@@ -1,6 +1,6 @@
 {
   "name": "smeeckaert/fw-tools",
-  "description": "Controller",
+  "description": "Tools for FW",
   "license": "Unlicense",
   "authors": [
     {
@@ -8,5 +8,10 @@
       "email": "martin@smeeckaert.com"
     }
   ],
+  "autoload": {
+    "psr-4": {
+      "FW\\Tools": ""
+    }
+  },
   "require": {}
 }
