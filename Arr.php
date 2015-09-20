@@ -28,7 +28,7 @@ class Arr
         $return = array();
         if (is_array($array) && array_key_exists($key, $array)) {
             return $array[$key];
-        } elseif (is_object($array) && !empty($array->$key)) {
+        } elseif (is_object($array) && isset($array->$key)) {
             return $array->$key;
         }
         foreach ($array as $item) {
